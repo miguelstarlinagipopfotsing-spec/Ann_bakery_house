@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ann Bakery House. - Dishes Showcase</title>
+    <meta
+      name="description"
+      content="A clean, editorial food showcase inspired by the Figma layout."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=DM+Sans:wght@400;500;700&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="page-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Ann B.H. home">Area</a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <a class="top-link" href="#contact">Contact Us</a>
+
+        <a class="learn-more" href="#contact">
+          <span>Learn More</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </header>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <div class="mobile-nav__panel">
+          <a href="#contact">Contact Us</a>
+          <a class="learn-more learn-more--mobile" href="#contact">
+            <span>Learn More</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </nav>
+
+      <main>
+        <section class="hero">
+          <p class="hero-kicker reveal">Signature food presentation</p>
+          <h1 class="reveal">Welcome to Ann Bakery House.</h1>
+
+          <div class="hero-device reveal" aria-label="Featured dish visual">
+            <div class="hero-device__frame">
+              <div class="hero-art hero-art--large">
+                <span class="hero-art__plate"></span>
+                <span class="hero-art__garnish hero-art__garnish--one"></span>
+                <span class="hero-art__garnish hero-art__garnish--two"></span>
+                <span class="hero-art__garnish hero-art__garnish--three"></span>
+                <span class="hero-art__garnish hero-art__garnish--four"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="section-divider" />
+
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+          <h2 class="sr-only" id="gallery-title">Featured dishes</h2>
+
+          <figure class="dish-card dish-card--skewers reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>01</span>
+              <strong>beef skewers</strong>
+              <p>Chunks of beef threaded onto a skewer and grilled, alongside vegetables like bell peppers and onions</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--fish reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>02</span>
+              <strong>Roasted fish</strong>
+              <p>It involves scoring and marinating a whole fish with a blend of garlic, ginger, chili, and local spices, then cooking it over an open charcoal fire to achieve a crispy exterior and tender inside.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--tomato reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>03</span>
+              <strong>Tomato sauce</strong>
+              <p>is a rich, flavorful tomato stew used as a foundational base in Cameroonian cuisine. Unlike smooth Western tomato sauces, it is deeply sautéed with blended aromatics (onions, ginger, garlic), spices, and proteins, and is typically served over rice, plantains, or pasta.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--poulet reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>04</span>
+              <strong>Poulet mayo</strong>
+              <p>The cooked chicken is chopped and generously smothered in a rich, homemade mayonnaise mixed with ingredients like mustard, lemon juice, diced onions, bell peppers, and chili.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--rice reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>05</span>
+              <strong>Stir-fried rice</strong>
+              <p> refers to a quick, highly flavorful one-pot rice dish made by stir-frying cooked rice with vegetables, meats, and aromatic spices.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--Ndole reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>06</span>
+              <strong>Ndole</strong>
+              <p>Is widely regarded as the ultimate national dish of Cameroon. Originating from the Sawa (coastal) people of the Littoral Region, it is a rich, aromatic, and highly celebrated "surf and turf" stew. If you attend any major Cameroonian party, wedding, or festive gathering, Ndolé is almost always the star centerpiece on the table.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--sandwich reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>07</span>
+              <strong>Sandwich</strong>
+              <p> A light, airy French-style baguette with an ultra-crispy crust,  Juicy savory meats—typically lemongrass beef,  A fresh, aromatic finish of whole cilantro sprigs and Camerounian spices.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--celebration reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>08</span>
+              <strong>Cake</strong>
+              <p>Built for birthdays, gatherings, and memorable tables.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--bread reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>09</span>
+              <strong>French baguettes</strong>
+              <p>Thick, deeply golden, and intentionally chewy. It is meant to be torn apart rather than easily bitten through.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--crepes reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>10</span>
+              <strong>Crepes</strong>
+              <p> are ultra-thin, delicate French pancakes originating from the region of Brittany. Unlike thick American pancakes, crêpe batter contains no leavening agents (like baking powder), which keeps them completely flat, flexible, and tender with signature lacy, crispy edges.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--puff_puff reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>11</span>
+              <strong>Puff Puff</strong>
+              <p>The Texture: Crispy and golden-brown on the outside, but incredibly airy, pillowy, and chewy on the inside.The Flavor: Subtly sweet with a comforting, yeasty bread-like flavor. They are never as sugary as Western glazed donuts.The Shape: Distinctly round, irregular spheres, roughly the size of a golf ball.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="dish-card dish-card--meat_pie reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>12</span>
+              <strong>Meat Pie</strong>
+              <p>The Crust: A rich, golden, and incredibly buttery shortcrust pastry. It has a unique texture that is crumbly and melt-in-your-mouth soft.The Shape: Distinctly crescent or half-moon shaped individual hand pies, typically sealed and crimped around the curved edge using the prongs of a fork.The Filling: A moist, savory, and thick mixture of seasoned minced beef, finely diced carrots, and small potato cubes. The potatoes cook down to help naturally thicken the meat juices into a rich gravy inside the pie</p>
+            </figcaption>
+          </figure>
+   
+          <figure class="dish-card dish-card--doughnuts reveal">
+            <div class="dish-card__art">
+              <span class="dish-card__plate"></span>
+              <span class="dish-card__accent dish-card__accent--a"></span>
+              <span class="dish-card__accent dish-card__accent--b"></span>
+            </div>
+            <figcaption class="dish-card__caption">
+              <span>13</span>
+              <strong>Doughnuts</strong>
+              <p>A perfectly smooth, round, golden-brown sphere with a distinct pale white ring running around the exact center where the dough floated out of the oil.</p>
+            </figcaption>
+          </figure>
+
+        </section>
+
+        <section class="quote-block reveal" aria-labelledby="quote-title">
+          <div class="quote-block__line"></div>
+          <div class="quote-block__content">
+            <p class="quote-block__eyebrow">Made to be remembered</p>
+            <h2 id="quote-title">Contact us</h2>
+            <p class="quote-block__text">
+              We design plates and desserts with the same care as the table they
+              are served on. Simple, refined, and always warm.
+            </p>
+            <a class="phone-link" href="tel:+639541438031">+63 954 143 8031</a>
+          </div>
+          
+          <a class="quote-block__badge" href="https://wa.me/639541438031" target="_blank" rel="noopener noreferrer" aria-label="Contactez-nous sur WhatsApp">
+            <img 
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" 
+              alt="WhatsApp Icon" 
+              class="whatsapp-online-img"
+            />
+          </a>  
+        </section>
+      </main>
+
+      <footer class="footer reveal" id="contact">
+        <p>Ann Bakery House.</p>
+        <a href="mailto:annettediffo0@gmail.com">annettediffo0@gmail.com</a>
+      </footer>
+    </div>
+  </body>
+</html>
